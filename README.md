@@ -4,6 +4,7 @@ Portfolio project for Bootcamp which includes an About, Portfolio, and Contact P
 # Technologies
 * HTML
 * CSS
+* Javascript
 
 # Deployed Site
 * [Portfolio](https://skuttenkuler.github.io/basic-porfolio/)
