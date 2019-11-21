@@ -9,7 +9,7 @@ body{
     display: relative;
     height: 100%;
 }
-
+/* nav bar */
 nav {
     top: 0;
     width: auto;
@@ -66,7 +66,8 @@ li {
     justify-content: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-.about-container {
+/* Body Container */
+.container {
     width: 960px;
     border: 1px solid #dddddd;
     background: #ffffff;
@@ -75,14 +76,14 @@ li {
 
     
 }
-.about-container h1{
+.container h1{
     margin-top: 20px;
     margin-left: 30px;
     color: #4baead;
     font-size: 40px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-.about-container p {
+.container p {
     display: inline-block;
     margin: 10px 30px 10px 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -90,6 +91,7 @@ li {
     line-height: 2;
     text-indent: 40px;
 }
+
 .about-image{
     margin-left: 30px;
     margin-top: 20px;
@@ -102,7 +104,7 @@ li {
     margin-top:15px;
     color: #777777;
 }
-
+/* Footer */
 footer{
     position: fixed;
     left: 0px;
@@ -124,3 +126,50 @@ footer{
 hr{
     width:900px;
 }
+/* --------------- CONTACT ---------------*/
+#contact-form{
+    display: relative;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #777777;
+}
+
+input[type=text]{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 97%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+input[type=email]{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 97%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+textarea{
+    outline: none !important;
+    border: 1px solid #dddddd;
+    width: 97%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+#contact-button {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    
+}
+
+/* --------------- PORTFOLIO ---------------*/
+
