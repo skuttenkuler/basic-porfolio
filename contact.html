@@ -42,7 +42,7 @@
                 <br>
                 Message<br>
                 <textarea name="message" id="message" rows="10"></textarea>
-                <button id="contact-button" type="submit">Submit</button>
+                <button onclick="myFunction()" id="contact-button" type="submit">Submit</button>
             </form>
         </div>
         <!-- Footer -->
@@ -51,4 +51,9 @@
         </footer>
     </div>
     </body>
+    <script>
+        function myFunction() {
+          alert("Message did not send but onClick works!");
+        }
+        </script>
     </html>
