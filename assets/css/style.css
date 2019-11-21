@@ -73,6 +73,7 @@ li {
     background: #ffffff;
     margin: 0 auto;
     justify-content: center;
+    margin-bottom:30px;
 
     
 }
@@ -130,7 +131,7 @@ hr{
 #contact-form{
     display: relative;
     margin-left: 30px;
-    margin-top: 25px;
+    margin-top: 50px;
     color: #777777;
 }
 
@@ -165,7 +166,7 @@ textarea{
 #contact-button {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 50px;
     color: #ffffff;
     margin-bottom: 15px;
     
@@ -173,3 +174,84 @@ textarea{
 
 /* --------------- PORTFOLIO ---------------*/
 
+.portfolio-wrapper{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 40px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 70px;
+}
+
+.block { 
+    background-color: #4baead;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+#block-1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://media.npr.org/assets/img/2012/04/10/ap100512117837-1--d27b59825b79f0946e2503738f692e103de5e199-s800-c85.jpg);
+
+}
+#block-2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://media1.giphy.com/media/33F9yAHAuLFAcRGGJv/giphy.gif);
+    
+}
+#block-3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://media.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif);
+
+}
+#block-4 {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/img/breeds/english-bulldog-running-in-park.jpg);
+
+}
+#block-5 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://d14fqx6aetz9ka.cloudfront.net/wp-content/uploads/2019/08/27160937/smith_j4338TAHITI19cestari.jpg);
+
+
+}
+#block-6 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-image: url(https://media3.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif);
+
+
+}
+h4{
+    display: block;
+    margin-top: 50%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    justify-content: center;
+}
